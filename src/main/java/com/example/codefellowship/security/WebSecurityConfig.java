@@ -1,7 +1,7 @@
 package com.example.codefellowship.security;
 
+
 import com.example.codefellowship.web.UserDetailServiceImpl;
-//import com.vencer.reina.codefellowship.UserDetailServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -38,7 +38,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .authorizeRequests()
                 // allow requests to all URLS that match the patterns even if not logged in
-                .antMatchers("/", "/users", "/login", "/signup").permitAll()
+                .antMatchers("/", "/login","/usercreate" ,"/signup", "/*.css").permitAll()
                 // anything else, you must be logged in
                 .anyRequest().authenticated()
                 .and()
