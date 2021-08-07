@@ -8,4 +8,4 @@
 - **/login - page that allows user to log-in to the site.**
 - **/myprofile - page that displays the user info.**
 - **/post - page that allows user to add post.**
-
+- **localhost:8080**
