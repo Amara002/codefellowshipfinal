@@ -2,7 +2,7 @@
 
 
 
-## LAB 16 to19
+## LAB 16 to 19
 
 ***The application uses localhost:8080. In the main page, user can sign up by clicking on the link that will preview a sign up form for the user. Other routes available:***
 
